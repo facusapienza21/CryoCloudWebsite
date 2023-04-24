@@ -6,6 +6,7 @@ parts:
 - caption: Details
   chapters:
     - file: content/about
+    - file: content/team
     - file: content/mission
     - file: content/Getting_Started.md
     - file: content/Code_of_Conduct

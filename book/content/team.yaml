@@ -1,20 +1,44 @@
 description:
-  The people on this page have helped create and/or maintain the CryoCloud computing hub.
+  The people on this page have helped create, maintain, or regularly contribute to the CryoCloud cloud-computing hub.
   You'll find a few specializations listed per person if you are looking to discuss specific topics related to your open science.
 
 # INSTRUCTIONS:
 # - One entry per key must be included per person (title, avatar, role, organizations, bio, expertise, social, user_groups)
-# - user_groups correspond to hackweek roles defined here: https://uwhackweek.github.io/hackweeks-as-a-service/services/index.html
+# - user_groups were inspired by hackweek roles defined here: https://uwhackweek.github.io/hackweeks-as-a-service/services/index.html
 # - For 'avatar' an easy option is to use the URL for your GitHub user image: https://api.github.com/users/YOUR_GITHUB_USERNAME
 people:
+  - title: Jim Colliander
+    avatar: https://2i2c.org/author/jim-colliander/avatar_hufe8260afb59dd9a60085fae7000eb2cd_10131_270x270_fill_q75_lanczos_center.jpg
+    role: Partnerships Lead 
+    organizations:
+      - name: 2i2c
+      - name: The University of British Columbia
+      - name: Callysto
+      - name: Crowdmark
+    bio: >
+      Jim is a 2i2c Co-Founder. He is a Professor of Mathematics at the University of British Columbia and previously served (2016-2021) as the Director of The Pacific Institute for the Mathematical Sciences (PIMS). While at PIMS and using infrastructure from Compute Canada, he helped create a national-scale JupyterHub service called Syzygy . He co-founded Callysto , a collaboration between PIMS and Cybera. Callysto develops open education resources and training programs for students and teachers in grades 5-12 leveraging cloud-hosted interactive computing. Colliander also co-found Crowdmark , an education technology company based in Toronto that provides workflows and AI-based improvements to education assessment.
+    expertise:
+      - open science
+      - cloud computing infrastructure
+      - Python
+      - education
+    social:
+      - icon: github
+        icon_pack: fab
+        link: https://github.com/colliand
+      - icon: twitter
+        icon_pack: fab
+        link: https://twitter.com/colliand
+    user_groups:
+      - Contributor
+  # =============
   - title: Wei Ji Leong
     avatar: https://avatars.githubusercontent.com/u/23487320?v=4
-    role: Postdoctoral Researcher
+    role: Cloud Engineer 
     organizations:
-      - name: Byrd Polar and Climate Research Center
-      - name: The Ohio State University
+      - name: Development Seed
     bio: >
-      Wei Ji is a Geospatial Data Scientist working on applying Deep Learning to Earth Observation datasets. His research interest is focused on the subglacial topography and hydrology of Antarctica, having used ICESat-2 to map active subglacial lakes over an entire ice sheet and seeing how they drain and fill over time. As an active open source contributor, he has contributed to many open source PyData projects, and is a core developer of PyGMT - a Python library for geospatial data processing and visualization. He values open science and is excited to get more early career researchers on board too!
+      Wei Ji is a Cloud Engineer in the GeoAI team at Development Seed. His research interest is focused on the subglacial topography and hydrology of Antarctica, having used ICESat-2 to map active subglacial lakes over an entire ice sheet and seeing how they drain and fill over time. As an active open source contributor, he has contributed to many open source PyData projects, and is a core developer of PyGMT - a Python library for geospatial data processing and visualization. He values open science and is excited to get more early career researchers on board too!
     expertise:
       - open science
       - cloud computing
@@ -50,9 +74,31 @@ people:
         icon_pack: fab
         link: https://github.com/jdmillstein
     user_groups:
-      - Creator
+      - Co-Founder
       - Maintainer
       - Trainer
+  # =============
+  - title: James Munroe
+    avatar: https://avatars.githubusercontent.com/u/6181563?v=4
+    role: Product and Community Lead 
+    organizations:
+      - name: 2i2c
+    bio: >
+      James is Product and Community Lead for 2i2c. Coming from a background as an associate professor in the Department of Physics and Physical Oceanography at Memorial University of Newfoundland, he is a strong advocate for enabling scientists and students to be efficient and effective in their computational workflows. Building on previous work in big data oceanography with links to the Pangeo project, COSIMA: Consortium for Ocean-Sea Ice Modelling in Australia, and CIOOS: Canadian Integrated Ocean Observing System, James wants to bring the strength of the Jupyter ecosystem to users across a broad range of educational and research domains.
+    expertise:
+      - open science
+      - cloud computing infrastructure
+      - Python
+      - remote sensing
+    social:
+      - icon: github
+        icon_pack: fab
+        link: https://github.com/jmunroe
+      - icon: twitter
+        icon_pack: fab
+        link: https://twitter.com/__jmunroe
+    user_groups:
+      - Contributor
   # =============
   - title: Yuvi Panda
     avatar: https://avatars.githubusercontent.com/u/30430?v=4
@@ -68,6 +114,7 @@ people:
       - JavaScript
       - data extraction
       - digital design
+      - cloud computing infrastructure
     social:
       - icon: github
         icon_pack: fab
@@ -80,7 +127,8 @@ people:
     role: Assistant Professor
     organizations:
       - name: University of California Berkeley
-    bio: Fernando Pérez is an assistant professor in Statistics at UC Berkeley and a Faculty Scientist in the Department of Data Science and Technology at Lawrence Berkeley National Laboratory. After completing a PhD in particle physics at the University of Colorado at Boulder, his postdoctoral research in applied mathematics centered on the development of fast algorithms for the solution of partial differential equations in multiple dimensions.  Today, his research focuses on creating tools for modern computational research and data science across domain disciplines, with an emphasis on high-level languages, interactive and literate computing, and reproducible research.  He created IPython while a graduate student in 2001 and co-founded its successor, Project Jupyter. The Jupyter team collaborates openly to create the next generation of tools for human-driven computational exploration, data analysis, scientific insight and education. He is a National Academy of Science Kavli Frontiers of Science Fellow and a Senior Fellow and founding co-investigator of the Berkeley Institute for Data Science.  He is a co-founder of the NumFOCUS Foundation, and a member of the Python Software Foundation. He is the recipient of the 2012 Award for the Advancement of Free Software from the Free Software Foundation.
+    bio: > 
+        Fernando Pérez is an assistant professor in Statistics at UC Berkeley and a Faculty Scientist in the Department of Data Science and Technology at Lawrence Berkeley National Laboratory. After completing a PhD in particle physics at the University of Colorado at Boulder, his postdoctoral research in applied mathematics centered on the development of fast algorithms for the solution of partial differential equations in multiple dimensions.  Today, his research focuses on creating tools for modern computational research and data science across domain disciplines, with an emphasis on high-level languages, interactive and literate computing, and reproducible research.  He created IPython while a graduate student in 2001 and co-founded its successor, Project Jupyter. The Jupyter team collaborates openly to create the next generation of tools for human-driven computational exploration, data analysis, scientific insight and education. He is a National Academy of Science Kavli Frontiers of Science Fellow and a Senior Fellow and founding co-investigator of the Berkeley Institute for Data Science.  He is a co-founder of the NumFOCUS Foundation, and a member of the Python Software Foundation. He is the recipient of the 2012 Award for the Advancement of Free Software from the Free Software Foundation.
     expertise:
       - open science
       - cloud computing
@@ -94,6 +142,7 @@ people:
         icon_pack: fab
         link: https://github.com/fperez
     user_groups:
+      - Maintainer
       - Trainer
   # =============
   - title: Wilson Sauthoff
@@ -125,7 +174,8 @@ people:
     organizations:
       - name: University of New Hampshire
       - name: eScience
-    bio: Jessica is a glaciologist, remote sensing specialist, open science advocate and educator, collaborative developer, open-source software contributor and maintainer, and community manager. She enjoys weaving her many roles together to work with others to build software that makes it easier for everyone to access and manipulate data, and she's especially fond of detecting icebergs.
+    bio: >
+        Jessica is a glaciologist, remote sensing specialist, open science advocate and educator, collaborative developer, open-source software contributor and maintainer, and community manager. She enjoys weaving her many roles together to work with others to build software that makes it easier for everyone to access and manipulate data, and she's especially fond of detecting icebergs.
     expertise:
       - open science
       - collaborative development
@@ -162,7 +212,7 @@ people:
         icon_pack: fab
         link: https://github.com/mrsiegfried
     user_groups:
-      - Maintainer
+      - Contributor
   # =============
   - title: Tasha Snow
     avatar: https://avatars.githubusercontent.com/u/12904976?v=4
@@ -182,7 +232,7 @@ people:
         icon_pack: fab
         link: https://github.com/tsnow03
     user_groups:
-      - Creator
+      - Co-Founder
       - Maintainer
       - Trainer
   # =============
